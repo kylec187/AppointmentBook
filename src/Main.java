@@ -5,6 +5,8 @@ public class Main {
         for (int i = 10; i < 15; i++) schedule[1][i] = true;
         a.printPeriod(2);
         a.findFreeBlock(2, 15);
+        a.findFreeBlock(2, 9);
+        a.findFreeBlock(2, 20);
         schedule = new boolean[8][60];
         for (int i = 25; i < 30; i++) schedule[1][i] = true;
         for (int i = 0; i < 15; i++) schedule[2][i] = true;
