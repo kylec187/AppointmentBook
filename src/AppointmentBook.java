@@ -39,7 +39,7 @@ public class AppointmentBook {
         }
         return -1;
     }
-    public void reserveBlock(int startMinute, int period, int duration){
+    public void reserveBlock(int period, int startMinute, int duration){
         for(int i = startMinute; i < startMinute + duration; i++) {
             schedule[period - 1][i] = false;
         }
